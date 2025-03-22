@@ -45,3 +45,9 @@
   #root, #__next {
     isolation: isolate;
   }
+
+  :root {
+    --primary-color: #4CAF50;
+    --secondary-color: #2196F3;
+    --font-size: 16px;
+}

@@ -94,3 +94,10 @@
     letter-spacing: .5rem;
     font-size: .875rem;
 }
+
+.head-text {
+    font-family: var(--heading-font);
+    line-height: 1;
+    padding-block: 1rem;
+}
+

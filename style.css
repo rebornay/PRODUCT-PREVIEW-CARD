@@ -88,3 +88,9 @@
     padding: 1rem;
 }
 
+.perfume {
+    font-family: var(--body-font);
+    text-transform: uppercase;
+    letter-spacing: .5rem;
+    font-size: .875rem;
+}

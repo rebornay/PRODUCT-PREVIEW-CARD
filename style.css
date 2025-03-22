@@ -6,6 +6,7 @@
   /* 2. Remove default margin */
   * {
     margin: 0;
+    text-decoration: none;
   }
   
   body {
@@ -75,7 +76,7 @@
     flex-direction: column;
     /* display: grid;           
     grid-template-columns: 1fr 1fr;  */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     border-radius: 10px;
     background-color: var(--White);
 }
@@ -84,8 +85,13 @@
     display: none; /* Makes sure the desktop image doesn't display on mobile view */
 }
 
+.img-mobile {
+    display: display; 
+}
+
 .text-box {
-    padding: 1rem;
+    padding: 1.2rem 1rem;
+    /* border: 1px solid green; */
 }
 
 .perfume {
@@ -101,3 +107,60 @@
     padding-block: 1rem;
 }
 
+.paragraph{
+    font-family: var(--body-font);
+    line-height: 1.8;
+}
+
+.price {
+    padding-block: .5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.h1-price {
+    font-family: var(--heading-font);
+    color: var(--Green-500);
+}
+
+.h1-price-small {
+    font-family: var(--heading-font);
+    font-size: .875rem;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+
+button {
+    border: none;
+    width: 100%;   
+    padding: 15px 20px;
+    background-color: var(--Green-500);
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: var(--Green-700);
+}
+
+.button-text {
+    font-family: var(--body-font);
+    font-weight: 600;
+}
+
+/* Media query */
+
+@media (min-width:1440px) and (max-width: 4000px) {
+    .main-div {
+        /* display: block; */
+        flex-direction: row;
+    }
+    
+}

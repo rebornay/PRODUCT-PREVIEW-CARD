@@ -50,10 +50,19 @@
     /* Primary colours */
     --Green-500: hsl(158, 36%, 37%);
     --Green-700: hsl(158, 42%, 18%);
-    
+
     /* Neutral colours */
     --Black: hsl(212, 21%, 14%);
     --Grey: hsl(228, 12%, 48%);
     --Cream: hsl(30, 38%, 92%);
     --White: hsl(0, 0%, 100%);
+
+    /* Fonts */
+    --heading-font: 'Fraunces', serif;
+    --body-font: 'Montserrat', sans-serif;
+}
+
+.main-div {
+    display: flex;
+    border: 1px solid red;
 }

@@ -171,6 +171,7 @@ button:hover {
         /* border: 1px solid red; */
         /* height: 400px; */
         margin: 0 auto;
+        /* position: relative; */
     }
 
     .img-mobile {

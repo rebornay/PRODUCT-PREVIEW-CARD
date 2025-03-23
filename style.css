@@ -158,9 +158,42 @@ button:hover {
 /* Media query */
 
 @media (min-width:1440px) and (max-width: 4000px) {
+
+    body {
+        margin-top: 5%;
+    }
+   
     .main-div {
-        /* display: block; */
         flex-direction: row;
+        /* align-items: center; */
+        /* justify-self: space-between; */
+        width: 50%;
+        /* border: 1px solid red; */
+        /* height: 400px; */
+        margin: 0 auto;
+    }
+
+    .img-mobile {
+        display: none; 
     }
     
+    .img-desktop {
+        display: block; 
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        /* object-fit: cover;     */
+
+    }
+
+    .image {
+        /* height: 500px;
+        width: 500px; */
+    }
+
+    .text-box {
+        padding: 2rem;
+        width: 80%;
+        /* height: 500px;
+        width: 500px; */
+    }
 }
